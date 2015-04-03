@@ -253,7 +253,7 @@
                 <item label="Edit .conkyrc">
                     <action name="Execute">
                         <command>
-                            geany ~/.conkyrc
+                            gksudo geany ~/.conkyrc
                         </command>
                     </action>
                 </item>
@@ -286,7 +286,7 @@
                 <item label="Edit start-up script">
                     <action name="Execute">
                         <command>
-                            geany ~/.config/dmenu/dmenu-bind.sh
+                            gksudo geany ~/.config/dmenu/dmenu-bind.sh
                         </command>
                     </action>
                 </item>
@@ -303,7 +303,7 @@
                 <item label="Edit config file">
                     <action name="Execute">
                         <command>
-                            geany ~/.gmrunrc
+                            gksudo geany ~/.gmrunrc
                         </command>
                     </action>
                 </item>
@@ -320,21 +320,21 @@
                 <item label="Edit menu.xml">
                     <action name="Execute">
                         <command>
-                            geany ~/.config/openbox/menu.xml
+                            gksudo geany ~/.config/openbox/menu.xml
                         </command>
                     </action>
                 </item>
                 <item label="Edit rc.xml">
                     <action name="Execute">
                         <command>
-                            geany ~/.config/openbox/rc.xml
+                            gksudo geany ~/.config/openbox/rc.xml
                         </command>
                     </action>
                 </item>
                 <item label="Edit autostart">
                     <action name="Execute">
                         <command>
-                            geany ~/.config/openbox/autostart
+                            gksudo geany ~/.config/openbox/autostart.sh
                         </command>
                     </action>
                 </item>
@@ -391,7 +391,7 @@
                 <item label="Edit config file">
                     <action name="Execute">
                         <command>
-                            geany ~/.config/tint2/tint2rc
+                            gksudo geany ~/.config/tint2/tint2rc
                         </command>
                     </action>
                 </item>
